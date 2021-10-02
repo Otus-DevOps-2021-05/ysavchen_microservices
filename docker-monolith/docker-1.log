@@ -1,0 +1,9 @@
+REPOSITORY    TAG               IMAGE ID       CREATED         SIZE
+hello-world   latest            feb5d9fea6a5   8 days ago      13.3kB
+ubuntu        18.04             54919e10a95d   4 weeks ago     63.1MB
+ubuntu        21.04             bf70ebd2c444   2 months ago    80.3MB
+sonarqube     7.9.4-community   2fd3ce38e6c0   11 months ago   484MB
+
+Чем отличается контейнер от образа?
+1. Образ - шаблон, на основе которого создаются контейнеры.
+2. Конетейнер содержит дополнительный слой для записи (copy-on-write), образ полностью immutable.
