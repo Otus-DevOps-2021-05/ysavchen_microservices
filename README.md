@@ -7,3 +7,11 @@ ysavchen microservices repository
 3. Собран docker image - reddit:latest
 4. Запущен контейнер и проверена доступность приложения
 5. Docker image запушен в Docker Hub
+
+### Домашнее задание №13 - Docker-3
+1. Создан каталог с кодом микросервисов: post-py, comment, ui
+2. Добавлен Dockerfile в post-py, comment, ui
+3. Собраны образы микросервисов с помощью docker build
+4. Создана сеть reddit с помощью docker network
+5. Запущено и проверено приложение
+6. Оптимизирован размер образа ui и перезапущено приложение
