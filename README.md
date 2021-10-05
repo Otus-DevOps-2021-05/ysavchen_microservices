@@ -30,3 +30,10 @@ ysavchen microservices repository
 6. Добавлены окружения
 7. Добавлены tags
 8. Добавлены динамические окружения
+
+### Домашнее задание №16 - prometheus-1
+1. Установлен Prometheus с помощью Docker на Yandex VM
+2. Добавлена конфигурация prometheus.yml
+3. Пересобраны образы микросервисов с кофигурацией из docker_build.sh
+4. Добавлен сервис prometheus в docker-compose.yml с микросервисами
+5. Добавлен сервис node-exporter в docker-compose.yml с микросервисами
