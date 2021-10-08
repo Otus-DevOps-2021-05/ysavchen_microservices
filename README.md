@@ -20,3 +20,13 @@ ysavchen microservices repository
 1. Установлен docker-compose на машину
 2. Добавлен файл docker-compose.yml с описанием сервисов
 3. Вынесены в переменные окружения порт ui и версии сервисов
+
+### Домашнее задание №15 - gitlab-ci
+1. Установлен Gitlab с помощью docker-compose.yml на Yandex VM
+2. Созданы группа и проект
+3. Добавлен CI/CD pipeline
+4. Добавлен gitlab-runner
+5. Добавлены тесты в pipeline
+6. Добавлены окружения
+7. Добавлены tags
+8. Добавлены динамические окружения
