@@ -1,15 +1,20 @@
-FROM ruby:2.2
-RUN apt-get update -qq && apt-get install -y build-essential
+FROM ruby:2.3-alpine
 
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
 
-ADD Gemfile* $APP_HOME/
+COPY Gemfile* $APP_HOME/
+
+RUN apk add --no-cache build-base \
+    && gem install bundler -v 1.17.2 \
+    && bundle install \
+    && apk del build-base
+
 RUN bundle install
-ADD . $APP_HOME
+COPY . $APP_HOME
 
 ENV COMMENT_DATABASE_HOST comment_db
-ENV COMMENT_DATABASE comments
+ENV COMMENT_DATABASE comment
 
 CMD ["puma"]
