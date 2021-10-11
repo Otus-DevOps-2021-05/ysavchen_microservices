@@ -37,3 +37,11 @@ ysavchen microservices repository
 3. Пересобраны образы микросервисов с кофигурацией из docker_build.sh
 4. Добавлен сервис prometheus в docker-compose.yml с микросервисами
 5. Добавлен сервис node-exporter в docker-compose.yml с микросервисами
+
+### Домашнее задание №18 - logging-1
+1. Добавлен docker-compose-logging.yml и fluent.conf с конфигурацией Fluentd
+2. Изменены сервисы в docker-compose.yml, чтобы docker-контейнеры использовали fluentd
+3. Добавлены настройки фильтрации fluent.conf в Kibana
+4. Настроена отправка неструктурированных логов сервиса ui во fluentd
+5. Добавлены grok-шаблоны для ui
+6. Добавлен Zipkin в систему логгирования
