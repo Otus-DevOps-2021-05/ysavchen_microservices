@@ -45,3 +45,13 @@ ysavchen microservices repository
 4. Настроена отправка неструктурированных логов сервиса ui во fluentd
 5. Добавлены grok-шаблоны для ui
 6. Добавлен Zipkin в систему логгирования
+
+### Домашнее задание №19 - kubernetes-1
+1. Созданы две VM для master и worker нод
+2. Установлен docker, k8s и kubeadm на ноду и worker ноды
+3. Созданы манифесты для сервисов post, ui, comment, mongo на master ноде
+4. Выполнена команда инициализации kubeadm init на master ноде
+5. Выполнена команда kubeadm join на worker ноде
+6. Проверено с помощью kubectl get nodes количество доступных нод
+7. Установлен сетевой плагин
+8. Запущены поды командой kubectl apply -f <filename>
