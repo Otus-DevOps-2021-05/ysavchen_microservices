@@ -55,3 +55,11 @@ ysavchen microservices repository
 6. Проверено с помощью kubectl get nodes количество доступных нод
 7. Установлен сетевой плагин
 8. Запущены поды командой kubectl apply -f <filename>
+
+### Домашнее задание №20 - kubernetes-2
+1. Установлены kubectl и minikube
+2. Сконфигурирован cluster, user, namespace
+3. Созданы Deployments для ui, comment, post, mongodb
+4. Созданы Services для ui, comment, post, mongodb
+5. Добавлена конфигурация namespace в ui deployment
+6. Развернут кластер k8s в Yandex Cloud
