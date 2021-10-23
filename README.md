@@ -63,3 +63,9 @@ ysavchen microservices repository
 4. Созданы Services для ui, comment, post, mongodb
 5. Добавлена конфигурация namespace в ui deployment
 6. Развернут кластер k8s в Yandex Cloud
+
+### Домашнее задание №21 - kubernetes-3
+1. Установлен Ingress Congroller
+2. Изменен Ingress на прием только https
+3. Сконфигурирована Network Policy
+4. Добавлен и подключен к кластеру persistent storage
