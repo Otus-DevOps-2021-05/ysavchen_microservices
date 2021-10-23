@@ -69,3 +69,9 @@ ysavchen microservices repository
 2. Изменен Ingress на прием только https
 3. Сконфигурирована Network Policy
 4. Добавлен и подключен к кластеру persistent storage
+
+### Домашнее задание №21 - kubernetes-4
+1. Установлен Helm
+2. Добавлены Charts для comment, post, reddit, ui
+3. Установлен gitlab c помощью Helm Chart'a gitlab-omnibus
+4. Сконфигурирован CI для comment, post, reddit, ui
